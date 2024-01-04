@@ -4,7 +4,6 @@ import backgroundimg from "./babyshowerimg.jpg";
 import EventAvailableIcon from '@material-ui/icons/EventAvailable';
 import MapIcon from '@material-ui/icons/Map';
 import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
-import {Link} from "react-router-dom";
 
 <style>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet"></link>
@@ -12,12 +11,19 @@ import {Link} from "react-router-dom";
 
 const Container = styled.div`
 font-family: Fira Sans;
+
 `
 const HeaderContainer = styled.div`
 
 `
 const Img = styled.img`
     width: 100%;
+    @media only screen and (min-width: 420px){
+        width: 50%;
+        margin-left: 25%;
+        height: 600px;
+    width: 50%;
+    } 
 `
 const Header = styled.div`
     background-color: #0084ff80;
@@ -84,7 +90,7 @@ const Division = styled.div`
     margin-bottom: 10px;
 `
 const Host = styled.div`
-    
+    padding: 15px;
 `
 const HostBy = styled.p`
 color: #6c6a6a;
@@ -105,7 +111,7 @@ padding: 30px;
 margin: 10px;
 `
 const ContactUs = styled.div`
-
+padding: 15px;
 `
 const ContactHead = styled.p`
     color: #6c6a6a;
