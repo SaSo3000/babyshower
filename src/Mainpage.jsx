@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import { styled } from "styled-components";
 import backgroundimg from "./babyshowerimg.jpg";
-import EventAvailableIcon from '@material-ui/icons/EventAvailable';
-import MapIcon from '@material-ui/icons/Map';
-import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
-
+import MapIcon from '@mui/icons-material/Map';
+import EventIcon from '@mui/icons-material/Event';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
 <style>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet"></link>
 </style>
@@ -169,13 +168,13 @@ Binbrook Little Theatre Inc2600 Hamilton Regional Road Binbrook, Ontario L0R 1C0
 <WhereP>Binbrook Little Theatre Inc2600 Hamilton Regional Road Binbrook, Ontario L0R 1C0</WhereP>
 <WhereDiv>
     <a href='https://maps.app.goo.gl/YSviMN7EafESWv1z6'>
-    <MapIcon /> <WhereP2>View Map</WhereP2></a>
+   <MapIcon/>  <WhereP2>View Map</WhereP2></a>
 </WhereDiv>
 <When>When</When>
 <WhenP>Sunday, March 12, 2023 at 10:30 AM ET</WhenP>
 <WhenDiv>
     <a href='https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NmhjaXA2MzZlaTZhZW8wY3JvNmdocTgydjQgc2F1bmFrMzAwMEBt&tmsrc=saunak3000%40gmail.com'>
-<EventAvailableIcon /> <WhenP2>Add to Calendar</WhenP2></a>
+<EventIcon/> <WhenP2>Add to Calendar</WhenP2></a>
 </WhenDiv>
 </Info>
 <Division></Division>
